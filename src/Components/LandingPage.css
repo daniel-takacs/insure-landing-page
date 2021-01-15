@@ -1,0 +1,8 @@
+.image-family > img{
+    width: 100%;
+}
+.landingpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
