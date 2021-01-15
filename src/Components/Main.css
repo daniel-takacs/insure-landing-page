@@ -1,0 +1,26 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-bottom {
+    background-color: hsl(256, 26%, 20%);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.main-button > button {
+    padding: 15px;
+    color: white;
+    border: 2px solid white;
+    background-color: hsl(256, 26%, 20%);
+    padding: 10px 25px;
+}
