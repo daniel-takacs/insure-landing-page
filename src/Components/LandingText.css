@@ -1,17 +1,16 @@
 
 .landingtext {
     background-color: hsl(256, 26%, 20%);
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-   
+    position: relative;
 }
 
 .landingtext > h1 {
     font-size: 2.8rem;
-    padding: 20px;
+    padding: 80px 0 0;
     font-weight: 400;
     font-family: 'DM Serif Display', serif;
     text-align: center;
@@ -25,6 +24,7 @@
 .landing-button {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .landing-button > button {
     padding: 15px;
@@ -32,4 +32,14 @@
     border: 2px solid white;
     background-color: hsl(256, 26%, 20%);
     padding: 10px 25px;
+}
+
+.pattern1 > img {
+    position: absolute;
+    top: 0;
+}
+.pattern2 > img {
+    right: 0;
+    bottom: -200px;
+    position: absolute;
 }
