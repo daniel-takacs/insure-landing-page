@@ -1,0 +1,33 @@
+.social-icons {
+    padding: 25px;
+}
+.social-icons > img {
+    padding: 0 7px;
+}
+.footer-link > h4 {
+    color: rgba(0, 0, 0, 0.45);
+    padding: 25px;
+
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-link > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 800;
+    padding: 5px 0;
+}
+.footer-links {
+    margin-bottom: 70px;
+}

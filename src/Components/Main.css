@@ -3,24 +3,51 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
 
-
+}
+p {
+    font-family: 'Karla', sans-serif;
+}
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.container > h3 {
+    margin: 20px 0;
 }
 .main-bottom {
     background-color: hsl(256, 26%, 20%);
     color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin: 100px 15px;
 }
-
+.main-bottom > h2 {
+    padding: 50px;
+}
+.main-button {
+    padding:25px;
+}
 .main-button > button {
     padding: 15px;
     color: white;
     border: 2px solid white;
     background-color: hsl(256, 26%, 20%);
     padding: 10px 25px;
+}
+.wrapper-cards {
+    margin-top: 60px;
 }

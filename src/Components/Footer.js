@@ -4,6 +4,7 @@ import IconFacebook from './images/icon-facebook.svg';
 import IconTwitter from './images/icon-twitter.svg';
 import IconPinterest from './images/icon-pinterest.svg';
 import IconInstagram from './images/icon-instagram.svg';
+import './Footer.css'
 
 function Footer() {
     return (
