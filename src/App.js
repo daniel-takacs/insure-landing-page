@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import LandingPage from './Components/LandingPage';
 import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <LandingPage />
         <Main />
+        <Footer />
     </div>
   );
 }
