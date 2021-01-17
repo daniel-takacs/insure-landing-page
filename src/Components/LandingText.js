@@ -5,7 +5,8 @@ import PatternIntroRightMobile from './images/bg-pattern-intro-right-mobile.svg'
 
 function LandingText() {
     return (
-        <div className="landingtext">
+        <div className="landingtextcontainer">
+            <div className="landingtext">
             <div className="pattern1"><img src={PatternIntroLeftMobile} alt=""/></div>
             <h1>Humanizing your insurance.</h1>  
             <p> Get your life insurance coverage easier and faster. 
@@ -14,6 +15,7 @@ function LandingText() {
             </p> 
             <div className="landing-button"><button>VIEW PLANS</button></div> 
             <div className="pattern2"><img src={PatternIntroRightMobile} alt=""/></div>
+            </div>
         </div>
     )
 }
