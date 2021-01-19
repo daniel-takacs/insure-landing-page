@@ -9,12 +9,14 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footer">
+            <div className="footer-logo-container"> 
             <div className="logo-footer"><img src={Logo} alt=""/></div>
             <div className="social-icons">
                 <img src={IconFacebook} alt=""/>
                 <img src={IconTwitter} alt=""/>
                 <img src={IconPinterest} alt=""/>
                 <img src={IconInstagram} alt=""/>
+                </div>
             </div>
             <div className="footer-links">
                 <div className="footer-link">

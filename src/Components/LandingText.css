@@ -54,21 +54,28 @@
         align-items: flex-start;
     }
     .landingtext > h1 {
-        font-size:3rem;
-        position: relative;
+        font-size: 4.1rem;
+        line-height: 1
+        
     }
     .landing-button {
         display:block;
         padding-top: 40px;
         margin-bottom: 0;
     }
-    .landingtextcontainer > h1::before {
+    .landingtextcontainer {
+        position: relative;
+    }
+    .landingtext > h1::before {
         content: '';
         width: 50px;
-        color: black;
+        color: red;
         height: 50px;
         position: absolute;
-        left: 0;
-        top: 0;
+        left: -50px;
+        top: -50px;
+    }
+    .dimage {
+        margin-left: 55px;
     }
 }

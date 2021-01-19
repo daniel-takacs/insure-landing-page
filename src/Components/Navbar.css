@@ -1,8 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    padding: 20px 100px;
 }
 .navbar__links {
     display: none;
@@ -27,5 +26,26 @@
     }
     .navbar {
         justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1.5px;
+        font-size: 0.8rem;
+    }
+    .navbar-button {
+        padding: 15px;
+        color: black;
+        text-transform: uppercase;
+        background: none;
+        padding: 10px 25px;
+        border: 2px solid black;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+    .nav > ul{
+        display:flex;
+        align-items: center;
+    }
+    nav > ul > li > a{
+        font-weight: 600;
+        color: gray;
     }
 }
