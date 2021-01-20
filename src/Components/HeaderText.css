@@ -1,6 +1,4 @@
-
 .landingtextcontainer {
-  
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,7 +31,25 @@
     background-color: hsl(256, 26%, 20%);
     padding: 10px 25px;
 }
-
+.landingtext {
+    text-align: center;
+    padding: 40px 0;
+}
+.image-family-desktop > img {
+    display: none;
+}
+.landingpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+.landing-button {
+    padding: 50px;
+}
 .pattern1 > img {
     position: absolute;
     top: 0;
@@ -77,5 +93,21 @@
     }
     .dimage {
         margin-left: 55px;
+    }
+    .image-family > img {
+        display: none;
+    }
+    .image-family-desktop > img {
+        display: block;
+    }
+    .landingpage {
+        flex-direction:row;
+        justify-content:space-between
+    }
+    .dimage {
+        margin-bottom:-150px;
+    }
+    .landingpage {
+        padding: 100px;
     }
 }

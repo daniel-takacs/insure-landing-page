@@ -3,11 +3,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: relative;
 }
 .navbar__links {
     display: none;
 }
-
+.menu {
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+   
+}
 @media screen and (min-width: 768px) {
     .navbar__right {
         display: none
