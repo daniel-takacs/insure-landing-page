@@ -1,7 +1,8 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    align-items: center;
+    padding: 20px;
 }
 .navbar__links {
     display: none;
@@ -29,6 +30,7 @@
         align-items: center;
         letter-spacing: 1.5px;
         font-size: 0.8rem;
+        padding: 20px 100px;
     }
     .navbar-button {
         padding: 15px;

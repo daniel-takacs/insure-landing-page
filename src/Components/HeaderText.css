@@ -24,7 +24,7 @@
 .landing-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    
 }
 .landing-button > button {
     padding: 15px;

@@ -1,5 +1,9 @@
 .image-family > img{
-    width: 100%;
+   
+}
+.landingtext {
+    text-align: center;
+    padding: 20px 0;
 }
 .image-family-desktop > img {
     display: none;
@@ -8,9 +12,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: hsl(256, 26%, 20%);
     color: rgba(255, 255, 255, 0.8);
-    padding: 100px;
+    
+}
+.landing-button {
+    padding: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,5 +34,8 @@
     }
     .dimage {
         margin-bottom:-150px;
+    }
+    .landingpage {
+        padding: 100px;
     }
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import './LandingText.css';
+import './HeaderText.css';
 import PatternIntroLeftMobile from './images/bg-pattern-intro-left-mobile.svg';
 import PatternIntroRightMobile from './images/bg-pattern-intro-right-mobile.svg';
 
-function LandingText() {
+function HeaderText() {
     return (
         <div className="landingtextcontainer">
             <div className="landingtext">
@@ -20,4 +20,4 @@ function LandingText() {
     )
 }
 
-export default LandingText
+export default HeaderText
