@@ -1,8 +1,25 @@
 import React from 'react'
 
-function NavList() {
-    return (
-        <div>
+export const NavlistData = [
+    {
+        title: "How we work",
+        path: "/",
+        nClass: "nav-text"
+    },
+    {
+        title: "How we work",
+        path: "/",
+        nClass: "nav-text"
+    },
+    {
+        title: "How we work",
+        path: "/",
+        nClass: "nav-text"
+    }
+];
+
+
+  /*      <div>
             <nav className="nav" >
                     <ul>
                         <li><a href="">How we work</a></li>
@@ -12,7 +29,6 @@ function NavList() {
                     </ul>
                 </nav>
         </div>
-    )
+    
 }
-
-export default NavList
+*/

@@ -5,11 +5,18 @@ import ImageFamily from './images/image-intro-mobile.jpg';
 import ImageFamilyDesktop from './images/image-intro-desktop.jpg';
 import './LandingPage.css';
 import HeaderText from './HeaderText';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function Header() {
     return (
         <div className="header">
+            <Router>
             <Navbar />
+                <Switch>
+                    <Route path='/' />
+                </Switch>
+            </Router>
                 <div className="landingpage">
                     <div className="image-family"><img src={ImageFamily} alt=""/></div>
                     <HeaderText />
