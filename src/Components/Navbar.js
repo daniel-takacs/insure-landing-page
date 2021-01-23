@@ -1,45 +1,38 @@
 import React, { useState } from 'react';
+import closeIcon from './images/icon-close.svg';
+import hamburgerIcon from './images/icon-hamburger.svg';
 import './Navbar.css';
 import Logo from './images/logo.svg';
-import IconHamburger from './images/icon-hamburger.svg';
-import NavlistData from './NavlistData';
-import { Link } from '@material-ui/core';
-import  IconClose  from './images/icon-close.svg';
+
 
 function Navbar() {
-    const [siderbar, setSidebar] = useState(false);
+    const [sidebar, setSidebar] = useState(false);
     
-    const showSidebar = ()=> {
-        setSidebar(!sidebar)
-    }
-
+    const showSidebar = ()=> setSidebar(!sidebar);
+    
     return (
         <div className="navbar">
-            <div className="navbar__left"><img src={Logo} alt=""/></div>
-            <div className="navbar__links">
-                <Link>
-                <div className="navbar__right"><img onClick={showSidebar}src={IconHamburger} alt=""/></div>
-                <nav className={sidebar ? "nav-menu-active" : "nav-menu"}>
-                    <ul className="nav-menu-items">
-                        <li className="navbar-toggle">
-                        <Link to="#" className="menu-bars">
-                        <img src={IconClose}/>
-                        </Link>
+            <img src={Logo} alt=""/>
+            <img src={hamburgerIcon} alt="hamburgericon" onClick={showSidebar}/>
+                <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+                    <ul className="nav-list">
+                        <li>
+                            <img src={closeIcon} alt="closeicon" onClick={showSidebar}/>
                         </li>
-                        {NavlistData.map((item, index) => {
-                            return (
-                                <li key={index} className={item.cName}>
-                                    <Link to={item.path}>
-                                    <span>{item.title}</span>
-                                    </Link>
-                                </li>
-                            )
-                        })}
+                        <li>
+                            <a href="">How we work</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Account</a>
+                        </li>
+                        <li>
+                            <a href="">View Plans</a>
+                        </li>
                     </ul>
-                </nav>
-                </Link>
-            </div>
-          
+            </nav>
         </div>
     )
 }
