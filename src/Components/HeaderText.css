@@ -25,7 +25,7 @@
     
 }
 .landing-button > button {
-    padding: 15px;
+   font-size: 1.1rem;
     color: white;
     border: 2px solid white;
     background-color: hsl(256, 26%, 20%);
@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     background-color: hsl(256, 26%, 20%);
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     
 }
 .landing-button {
@@ -67,7 +67,7 @@
         display: none;
     }
     .landingtext {
-        align-items: flex-start;
+        text-align: left;
     }
     .landingtext > h1 {
         font-size: 4.1rem;
@@ -76,6 +76,7 @@
     }
     .landing-button {
         display:block;
+        padding: 0;
         padding-top: 40px;
         margin-bottom: 0;
     }
@@ -99,6 +100,7 @@
     }
     .image-family-desktop > img {
         display: block;
+        background-position: top right;
     }
     .landingpage {
         flex-direction:row;

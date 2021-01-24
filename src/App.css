@@ -16,3 +16,10 @@ h1 {
   max-width: 100%;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
+.main, .main-bottom, .footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}

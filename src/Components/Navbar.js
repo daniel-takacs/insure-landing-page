@@ -13,11 +13,11 @@ function Navbar() {
     return (
         <div className="navbar">
             <img src={Logo} alt=""/>
-            <img src={hamburgerIcon} alt="hamburgericon" onClick={showSidebar}/>
+            <img className="hamburger-icon"src={hamburgerIcon} alt="hamburgericon" onClick={showSidebar}/>
                 <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
                     <ul className="nav-list">
                         <li>
-                            <img src={closeIcon} alt="closeicon" onClick={showSidebar}/>
+                            <img className="close-icon" src={closeIcon} alt="closeicon" onClick={showSidebar}/>
                         </li>
                         <li>
                             <a href="">How we work</a>
@@ -29,7 +29,7 @@ function Navbar() {
                             <a href="">Account</a>
                         </li>
                         <li>
-                            <a href="">View Plans</a>
+                           <a className="nav-button" href="">View Plans</a>
                         </li>
                     </ul>
             </nav>

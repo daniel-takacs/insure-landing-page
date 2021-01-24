@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import './Header.css'
 import ImageFamily from './images/image-intro-mobile.jpg';
 import ImageFamilyDesktop from './images/image-intro-desktop.jpg';
-import './LandingPage.css';
 import HeaderText from './HeaderText';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

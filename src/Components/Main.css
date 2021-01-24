@@ -33,7 +33,7 @@ p {
     justify-content:center;
     align-items:center;
     text-align: center;
-    margin: 100px 15px;
+    margin: 100px 0;
 }
 .main-bottom > h2 {
     padding: 50px;
@@ -62,9 +62,11 @@ p {
         max-width: 1200px;
         position: relative;
     }
+    .wrapper-cards .container {
+        text-align: left;
+    }
    .main > h2 {
        align-self: flex-start;
-       margin-left: 140px;
        font-size: 4.2rem;
    }
    .main > h2::before {
@@ -77,6 +79,14 @@ p {
        left: 0;
    }
    .main-bottom {
+      
        flex-direction: row;
+       padding: 50px;
+   }
+   .main-bottom > h2 {
+       padding: 0 50px;
+   }
+   .container {
+       display: block
    }
 }
