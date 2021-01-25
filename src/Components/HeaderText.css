@@ -71,8 +71,8 @@
     }
     .landingtext > h1 {
         font-size: 4.1rem;
-        line-height: 1
-        
+        line-height: 1;
+        position: relative;
     }
     .landing-button {
         display:block;
@@ -83,14 +83,14 @@
     .landingtextcontainer {
         position: relative;
     }
-    .landingtext > h1::before {
+    h1::before {
         content: '';
-        width: 50px;
-        color: red;
-        height: 50px;
+        width: 100px;
+        background-color: white;
+        height: 2px;
         position: absolute;
-        left: -50px;
-        top: -50px;
+        left: 0px;
+        top: -90px;
     }
     .dimage {
         margin-left: 55px;
@@ -104,12 +104,19 @@
     }
     .landingpage {
         flex-direction:row;
-        justify-content:space-between
+        justify-content:space-between;
+        position: relative;
     }
+
     .dimage {
-        margin-bottom:-150px;
+        margin-bottom:-200px;
     }
     .landingpage {
         padding: 100px;
+    }
+    .header-pattern-right {
+        position: absolute;
+        right: 0;
+        top:0;
     }
 }

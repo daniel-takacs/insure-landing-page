@@ -79,7 +79,7 @@ p {
        left: 0;
    }
    .main-bottom {
-      
+       width: 100%;
        flex-direction: row;
        padding: 50px;
    }
