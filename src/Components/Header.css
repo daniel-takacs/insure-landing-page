@@ -54,11 +54,15 @@
 .pattern1 > img {
     position: absolute;
     top: 0;
+    left: 0;
 }
 .pattern2 > img {
     right: 0;
     bottom: -200px;
     position: absolute;
+}
+.header-pattern-right {
+    display: none;
 }
 @media screen and (min-width: 768px) {
     .pattern1 > img {
@@ -66,6 +70,9 @@
     }
     .pattern2 > img {
         display: none;
+    }
+    .header-pattern-right {
+        display: block;
     }
     .landingtext {
         text-align: left;

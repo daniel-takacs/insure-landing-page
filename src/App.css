@@ -15,6 +15,7 @@ h1 {
   width: 1440px;
   max-width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -22,4 +23,5 @@ a {
 .main, .main-bottom, .footer-logo-container, .footer-links {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 10px;
 }

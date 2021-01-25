@@ -53,18 +53,22 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-
+.main-pattern {
+    display: none;
+}
 @media screen and (min-width: 768px) {
     .main {
         position: relative;
         margin-top: 300px;
+    }
+    .main-pattern {
+        display: block;
     }
     .wrapper-cards {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
         max-width: 1200px;
-       
     }
     .wrapper-cards .container {
         text-align: left;
@@ -87,10 +91,6 @@ p {
        flex-direction: row;
        padding: 50px 0;
        position: relative;
-       
-   }
-   .main-bottom > h2 {
-      
    }
    .container {
        display: block;
@@ -100,4 +100,10 @@ p {
        position: absolute;
        right: 0;
    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-pattern {
+        display: none;
+    }
 }
