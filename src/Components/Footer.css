@@ -45,6 +45,8 @@
     }
     .footer-links {
         display: flex;
+        justify-content:space-evenly;
+        width: 100%;
         
     }
     .footer-logo-container {
