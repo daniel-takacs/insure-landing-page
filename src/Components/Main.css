@@ -47,6 +47,8 @@ p {
     border: 2px solid white;
     background-color: hsl(256, 26%, 20%);
     padding: 10px 25px;
+    text-transform:uppercase;
+    font-size: 1.1rem;
 }
 .wrapper-cards {
     margin-top: 60px;

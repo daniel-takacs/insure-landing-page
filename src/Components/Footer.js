@@ -50,7 +50,7 @@ function Footer() {
             </div>
             <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Daniel Takacs</a>.
+    Coded by <a href="https://github.com/daniel-takacs">Daniel Takacs</a>.
   </div>
         </div>
     )
