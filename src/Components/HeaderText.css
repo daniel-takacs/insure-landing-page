@@ -1,3 +1,4 @@
+
 .landingtextcontainer {
     display: flex;
     justify-content: center;
@@ -109,14 +110,27 @@
     }
 
     .dimage {
-        margin-bottom:-200px;
+        margin-bottom:-300px;
     }
     .landingpage {
-        padding: 100px;
+        padding: 180px;
     }
     .header-pattern-right {
         position: absolute;
         right: 0;
         top:0;
+    }
+    .header-pattern-left {
+        position: absolute;
+        background-position: left bottom;
+        bottom: -250px;
+        left: 0;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-pattern-left, .header-pattern-right {
+        display: none;
     }
 }
