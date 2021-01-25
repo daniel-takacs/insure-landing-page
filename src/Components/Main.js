@@ -3,6 +3,7 @@ import IconSnappy from './images/icon-snappy-process.svg';
 import IconAffordable from './images/icon-affordable-prices.svg';
 import IconPeople from './images/icon-people-first.svg';
 import './Main.css';
+import MainPattern from './images/bg-pattern-how-we-work-desktop.svg';
 
 export default function Main() {
     return (
@@ -36,8 +37,10 @@ export default function Main() {
             </div>
 
                <div className="main-bottom">
+               
                 <h2>Find out more about how we work</h2>
                 <div className="main-button"><button>How we work</button></div>
+                <div className="main-pattern"><img src={MainPattern} alt=""/></div>
                </div>
         </div>
     )

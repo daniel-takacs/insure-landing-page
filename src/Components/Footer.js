@@ -4,11 +4,13 @@ import IconFacebook from './images/icon-facebook.svg';
 import IconTwitter from './images/icon-twitter.svg';
 import IconPinterest from './images/icon-pinterest.svg';
 import IconInstagram from './images/icon-instagram.svg';
-import './Footer.css'
+import './Footer.css';
+import FooterPattern from './images/bg-pattern-footer-desktop.svg';
 
 function Footer() {
     return (
         <div className="footer">
+            <div className="footer-pattern"><img src={FooterPattern} alt=""/></div>
             <div className="footer-logo-container"> 
             <div className="logo-footer"><img src={Logo} alt=""/></div>
             <div className="social-icons">

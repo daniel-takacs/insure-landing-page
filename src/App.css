@@ -19,7 +19,7 @@ h1 {
 a {
   text-decoration: none;
 }
-.main, .main-bottom, .footer {
+.main, .main-bottom, .footer-logo-container, .footer-links {
   max-width: 1000px;
   margin: 0 auto;
 }
