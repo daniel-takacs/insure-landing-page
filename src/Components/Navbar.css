@@ -31,6 +31,9 @@
 .hamburger-icon, .close-icon {
     display: none;
 }
+.nav-pattern {
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
     .hamburger {
