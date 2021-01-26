@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/insure-landing-page/static/css/main.855c8455.chunk.css",
-    "main.js": "/insure-landing-page/static/js/main.b352d1ce.chunk.js",
-    "main.js.map": "/insure-landing-page/static/js/main.b352d1ce.chunk.js.map",
+    "main.css": "/insure-landing-page/static/css/main.7f313da5.chunk.css",
+    "main.js": "/insure-landing-page/static/js/main.833fcaf7.chunk.js",
+    "main.js.map": "/insure-landing-page/static/js/main.833fcaf7.chunk.js.map",
     "runtime-main.js": "/insure-landing-page/static/js/runtime-main.650c80fd.js",
     "runtime-main.js.map": "/insure-landing-page/static/js/runtime-main.650c80fd.js.map",
     "static/js/2.0d0f368f.chunk.js": "/insure-landing-page/static/js/2.0d0f368f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3dae3fcf.chunk.js": "/insure-landing-page/static/js/3.3dae3fcf.chunk.js",
     "static/js/3.3dae3fcf.chunk.js.map": "/insure-landing-page/static/js/3.3dae3fcf.chunk.js.map",
     "index.html": "/insure-landing-page/index.html",
-    "static/css/main.855c8455.chunk.css.map": "/insure-landing-page/static/css/main.855c8455.chunk.css.map",
+    "static/css/main.7f313da5.chunk.css.map": "/insure-landing-page/static/css/main.7f313da5.chunk.css.map",
     "static/js/2.0d0f368f.chunk.js.LICENSE.txt": "/insure-landing-page/static/js/2.0d0f368f.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-footer-desktop.700c39ea.svg": "/insure-landing-page/static/media/bg-pattern-footer-desktop.700c39ea.svg",
     "static/media/bg-pattern-how-we-work-desktop.eb268c33.svg": "/insure-landing-page/static/media/bg-pattern-how-we-work-desktop.eb268c33.svg",
@@ -18,6 +18,7 @@
     "static/media/bg-pattern-intro-left-mobile.111709ef.svg": "/insure-landing-page/static/media/bg-pattern-intro-left-mobile.111709ef.svg",
     "static/media/bg-pattern-intro-right-desktop.0c130b3f.svg": "/insure-landing-page/static/media/bg-pattern-intro-right-desktop.0c130b3f.svg",
     "static/media/bg-pattern-intro-right-mobile.0354e571.svg": "/insure-landing-page/static/media/bg-pattern-intro-right-mobile.0354e571.svg",
+    "static/media/bg-pattern-mobile-nav.b2fceba3.svg": "/insure-landing-page/static/media/bg-pattern-mobile-nav.b2fceba3.svg",
     "static/media/icon-affordable-prices.a14b8077.svg": "/insure-landing-page/static/media/icon-affordable-prices.a14b8077.svg",
     "static/media/icon-close.f964824b.svg": "/insure-landing-page/static/media/icon-close.f964824b.svg",
     "static/media/icon-facebook.4333c445.svg": "/insure-landing-page/static/media/icon-facebook.4333c445.svg",
@@ -34,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.650c80fd.js",
     "static/js/2.0d0f368f.chunk.js",
-    "static/css/main.855c8455.chunk.css",
-    "static/js/main.b352d1ce.chunk.js"
+    "static/css/main.7f313da5.chunk.css",
+    "static/js/main.833fcaf7.chunk.js"
   ]
 }
