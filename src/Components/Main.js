@@ -12,7 +12,7 @@ export default function Main() {
 
             <div className="wrapper-cards">
                <div className="container">
-                <img src={IconSnappy} alt=""/>
+                <img src={IconSnappy} alt="iconsnappy"/>
                 <h3>Snappy Process</h3>
                 <p>Our application process can be completed 
                    in minutes, not hours. Don’t get 
@@ -20,7 +20,7 @@ export default function Main() {
                </div> 
               
                <div className="container">
-               <img src={IconAffordable} alt=""/>
+               <img src={IconAffordable} alt="iconaffordable"/>
                <h3>Affordable Prices</h3>
                <p>We don’t want you worrying about high monthly 
                     costs. Our prices may be low, 
@@ -28,7 +28,7 @@ export default function Main() {
                </div>
 
                <div className="container">
-               <img src={IconPeople} alt=""/>
+               <img src={IconPeople} alt="iconpeople"/>
                <h3>People First</h3>
                <p>Our plans aren’t full of conditions and 
                    clauses to prevent payouts. We make 
@@ -40,7 +40,7 @@ export default function Main() {
                
                 <h2>Find out more about how we work</h2>
                 <div className="main-button"><button>How we work</button></div>
-                <div className="main-pattern"><img src={MainPattern} alt=""/></div>
+                <div className="main-pattern"><img src={MainPattern} alt="mainpattern"/></div>
                </div>
         </div>
     )

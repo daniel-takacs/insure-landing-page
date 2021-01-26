@@ -10,14 +10,14 @@ import FooterPattern from './images/bg-pattern-footer-desktop.svg';
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer-pattern"><img src={FooterPattern} alt=""/></div>
+            <div className="footer-pattern"><img src={FooterPattern} alt="footerpattern"/></div>
             <div className="footer-logo-container"> 
-            <div className="logo-footer"><img src={Logo} alt=""/></div>
+            <div className="logo-footer"><img src={Logo} alt="logo"/></div>
             <div className="social-icons">
-                <img src={IconFacebook} alt=""/>
-                <img src={IconTwitter} alt=""/>
-                <img src={IconPinterest} alt=""/>
-                <img src={IconInstagram} alt=""/>
+                <img src={IconFacebook} alt="iconfacebook"/>
+                <img src={IconTwitter} alt="icontwitter"/>
+                <img src={IconPinterest} alt="iconpinterest"/>
+                <img src={IconInstagram} alt="iconinstagram"/>
                 </div>
             </div>
             <div className="footer-links">

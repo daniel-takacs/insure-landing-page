@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
-                <img src={Logo} alt=""/>
+                <img src={Logo} alt="logo"/>
             </div>
             <button className={sidebar ? "hamburger active" : "hamburger"}>
                 <img className="hamburger-icon"src={hamburgerIcon} alt="hamburgericon" onClick={showSidebar}/>
