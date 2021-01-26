@@ -3,7 +3,10 @@
     border: 2px solid black;
     padding: 10px 25px;
 }
-
+.nav-button:hover {
+    color: white;
+    background-color: hsl(256, 26%, 20%);
+}
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -12,13 +15,15 @@
 }
 .nav-list {
     display:flex;
-    
 }
 
 .nav-list li {
     list-style: none;
     padding: 0 15px;
     text-transform: uppercase;
+}
+.nav-list > li > a {
+    color:black;
 }
 .hamburger {
     display: flex;
@@ -60,8 +65,8 @@
         font-weight: 700;
         position: relative;
     }
-    .nav-list a {
-        color: white;
+    .nav-list > li > a {
+        color:white;
     }
     .nav-list li {
         padding: 20px 0;
@@ -72,7 +77,7 @@
       background-color: hsl(270, 9%, 17%);
     }
     .nav-menu.active {
-        top:92px;
+        top:80px;
         z-index: 100;
         
     }
@@ -81,13 +86,15 @@
         border: 2px solid white;
         padding: 10px 25px;
     }
-    nav
     .navbar {
         height: 80px;
         display: flex;
         align-items: center;
         justify-content: space-around;
         
+    }
+    .nav-button:hover {
+        background-color: transparent;
     }
     .nav-pattern {
         position: absolute;

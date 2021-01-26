@@ -25,16 +25,16 @@ function Navbar() {
                         <li>
                         </li>
                         <li>
-                            <a href="">How we work</a>
+                            <a href="#">How we work</a>
                         </li>
                         <li>
-                            <a href="">Blog</a>
+                            <a href="#">Blog</a>
                         </li>
                         <li>
-                            <a href="">Account</a>
+                            <a href="#">Account</a>
                         </li>
                         <li>
-                           <a className="nav-button nav-menu-button" href="">View Plans</a>
+                           <a className="nav-button nav-menu-button" href="#">View Plans</a>
                         </li>
                         <img className="nav-pattern" src={NavPattern} alt="navpattern"/>
                     </ul>

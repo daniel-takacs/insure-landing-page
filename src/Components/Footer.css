@@ -4,6 +4,9 @@
 .social-icons > img {
     padding: 0 7px;
 }
+.social-icons > img:hover {
+    color: crimson;
+}
 .footer-link > h4 {
     color: rgba(0, 0, 0, 0.45);
     padding: 25px;
@@ -24,6 +27,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    z-index: 10;
 }
 .footer-link {
     display: flex;

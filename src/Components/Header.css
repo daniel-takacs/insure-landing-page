@@ -31,6 +31,10 @@
     background-color: hsl(256, 26%, 20%);
     padding: 10px 25px;
 }
+.landing-button > button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+}
 .landingtext {
     text-align: center;
     padding: 40px 0;
